@@ -1,4 +1,4 @@
-# Quick Backbone Project: Backbone Tasks
+# Quick Backbone Project: Tasks
 
 #### Things I did.
 
