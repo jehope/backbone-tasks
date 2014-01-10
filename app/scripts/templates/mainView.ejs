@@ -1,0 +1,57 @@
+<div class="jumbotron" id="next-task">
+    <h1 class="task-title">No Tasks</h1>
+    <p><a class="btn btn-lg btn-primary task-create" href="#">New Task</a></p>
+</div>
+
+<div class="row text-left">  
+    <div class="col-md-12">
+        
+                  <!-- Split button -->
+        <div class="btn-group pull-right">
+          <button type="button" class="btn btn-primary task-create">New Task</button>
+          <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#" class="task-delete">Delete Task</a></li>
+            <li><a href="#" class="task-clear">Clear List</a></li>
+            <li class="divider"></li>
+            <li><a href="#" class="reset-demo">Reset Demo</a></li>
+          </ul>
+        </div>
+        <h2>Task List</h2>
+        <div class="table-responsive">
+          <table class="table table-hover table-striped tasks" id="task-list">
+            <thead>
+            <tr>
+              <th>Task</th>
+              <th>Due</th>
+              <th>User</th>
+              <th>Status</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        
+    </div>   
+</div>
+<div class="row text-left">
+    <div class="col-md-12">
+        <h2>Completed Tasks</h2>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped tasks" id="completed-tasks">
+                <thead>
+                    <tr>
+                      <th>Task</th>
+                      <th>Due</th>
+                      <th>User</th>
+                      <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
