@@ -13,11 +13,11 @@
 * Install the [backbone generator](https://github.com/yeoman/generator-backbone) npm install -g generator-backbone
 * Project Workflow
 ```
-yo backbone # generates your application base and build workflow
-yo backbone:model task
-yo backbone:collection task
-yo backbone:view task
-grunt server
+* yo backbone # generates your application base and build workflow
+* yo backbone:model task
+* yo backbone:collection task
+* yo backbone:view task
+* grunt server
 ```
 ##Next Steps
 * From here I just expanded on ideas I had and referenced the tutorial above to add functionality.
